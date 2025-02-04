@@ -1,3 +1,23 @@
+## Features
+ - Added WIF support for checkout task (#5085)
+
+## Bugs
+ - Fix connection getting disposed (#5039)
+ - [Agent] Bug Fix - Fixed Processor Arch Detection in Windows - AB#2232751 (#5049)
+ - Handle manual test cases associated with same automated tests (#5064)
+ - FIX: [CodeQL: SM02184] Server certificate validation disabled in VssUtil.cs (#5068)
+ - Adding service principal option in auth types in "config.cmd --help" command (#5071)
+ - Updating code owners (#5074)
+ - [Agent][Edgio] Remove Azure CDN Cache Commands to Unblock Pipeline Failures Due to Edgio Retirement - AB#2242851 (#5089)
+ -  FIX: Tasks on MacOS agents not completing but marked as succeeded. (#5092)
+
+## Misc
+ - Add Oracle Linux 7+ & Rocky Linux 8+ to supported OS (#5062)
+ - Disable Windows ARM64 from the release pipeline and notes (#5080)
+ - Create .CodeQL.yml (#5084)
+ - Upgrade runner image in pipeline from macos-12 to macos-14 (#5093)
+ - Adding registry key for VS telemetry to identify if Agent is installed on the same machine as VS (#5102)
+
 
 ## Agent Downloads
 
